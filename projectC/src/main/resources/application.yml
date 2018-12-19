@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8763
+spring:
+  application:
+    name: projectC
+
+debug: false
+logging:
+    config: classpath:log4j2-dev.xml
+
